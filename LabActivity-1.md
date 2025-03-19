@@ -1,6 +1,6 @@
 # Lab 1 - Basics CSS structure & Selectors
 
-## Objective: 
+## 📌 Objective: 
 Introduction to Basic CSS structure and Selectors.
 
 ## Task: (10 minutes)

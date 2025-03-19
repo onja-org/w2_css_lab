@@ -1,6 +1,6 @@
 # Lab 2 - CSS Units & Sizes and Box Model
 
-## Objective:
+## 📌 Objective:
 Understand and apply different CSS units for sizing elements and learn how the CSS Box Model affects element layout.
 
 ## Task (10 minutes):

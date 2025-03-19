@@ -1,54 +1,43 @@
-#  Lab 4: (3:00 - 4:00) - Flexbox Basics
+# Lab 4 - CSS Display & Float
 
-## Objective:
-Use Flexbox to create a simple layout.
+## 📌 Objective:
+Understand how to control the display of elements and the use of `float` property.
 
+## Tasks:
 
-# Task (10 minutes):
+### 📀 Part 1. Display:
+- In the `index.html` file create a `div` element and set its display property to `block`. Add text inside it.<br>
+Example:
 
-1. **In your `index.html`, create a container `<div>`** with multiple child `<div>` elements (e.g., 3 boxes).  
-   Inside your `index.html`, add the following code:
+  ```html 
+    <div class="block">
+      This is a block-level element.
+    </div>
+  ```
 
-   ```html
-   <div class="flex-container">
-     <div class="box">Box 1</div>
-     <div class="box">Box 2</div>
-     <div class="box">Box 3</div>
-   </div>
+- Create another `div` and set its display property to `inline-block`, and add text inside it as well.
 
+- After you've created your `<div>`s, add this following code below.
+  ```html 
+    <div class="used-box">
+      I use this box, do not remove it!
 
-2. In the `styles.css` file, add the following styles to the container and its children:
-
-    ```css
-    /* Apply flexbox layout to the container */
-    .flex-container {
-   
-    height: 100vh; /* Optional: Make the container fill the viewport height */
-    }
-
-    /* Style the individual boxes */
-    .box {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    border: 2px solid darkblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    }
+      <!-- Box to remove -->
+      <div class="extra-box">
+        This is just an extra element.
+      </div>
+    </div>
     ```
-3. Apply `display: flex;` to the `.flex-container` to enable Flexbox layout.
-4. Use `justify-content: space-between;` to evenly space out the child elements horizontally.
-5. Use `align-items: center;` to vertically align the child elements in the center.
+-  Display property to `none` to get rid of the extra box.
+
+<br>
 
 
-## Test the Layout:
+### 🛶 Part 2. Float:
+Still on the `used-box` part:
+- Apply `float: left` to the `used-box` element. 
+- Create a new `<div>` below that `used-box` element and apply `float: right`.
+- finally, you can use the `clear` property to stop the floating effect after the floated elements.
 
-Save the styles.css file.
-Refresh the browser with your index.html file and observe how the boxes are aligned. The child elements should be spaced out horizontally with even gaps, and vertically centered within the container.
-
-
-## Optional Adjustment:
-
-Adjust the sizes of the boxes in the `.box` class as needed to see how Flexbox handles the layout with varying sizes.
+## Outcome:
+You will learn how the `display` and `float` properties impact element layout and structure.

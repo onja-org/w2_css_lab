@@ -1,34 +1,36 @@
-# Lab 3: (2:00 - 3:00) - Box Model in CSS
+# Lab 3 - CSS Typography & List Styles
 
-## Objective:
-Experiment with the CSS box model by adjusting padding, border, and margin.
+## 📌 Objective:
+Understand how to style text and lists in CSS, including typography properties and list styling.
 
-## Task (10 minutes):
-1. Add a `<div>` element to your `index.html` file with the text <br>
+## Tasks:
 
-        ```
-        "This is a box."
+### ✍🏿 Part 1. Typography:
+**Update the `index.html` file**:
+- Set the `font-family` of the body to a custom font (Google Fonts or system font).
 
-        ```
-2. In the `styles.css` file, apply the following styles to the `<div>`
+    For example, you can use the Roboto fonts from [Google fonts](https://fonts.google.com/selection/embed). You can either use the `<link>` method or the `@import` method
 
-    ```css
-        div {
-        width: 100px;
-        height: 50px;
-        padding: 10px;
-        border: 1px solid black;
-        margin: 0;
-        }
+- Change the `font-size` to `16px` and set the `line-height` to `1.5`.
+- Adjust `letter-spacing` to `0.5px` and `word-spacing` to `1px`.
+
+
+<br>
+
+
+### 📋 Part 2. List Styles:
+- Create an unordered list with at least 3 items. Inside of the index.html, add this following code below:
+    ```html 
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
     ```
 
-3. Set a width of `300px` and a height of `150px`.
-4. Apply a `10px` padding inside the box and a `2px solid` border around it.
-5. Set the margin to `20px` so that the box is spaced from the surrounding content.
+- For the `<ul>` element:
+    -  Remove the default list styling using `list-style-type: none`.
+    - Add a custom image to the list items using `list-style-image`.
 
-
-## Test the Changes:
-
-Save the `styles.css` file.
-Refresh the browser with your `index.html` file and observe the box. It should now have a specific width, height, padding, border, and margin applied.
-
+## Outcome:
+You will have applied typography styles to text elements and customized list appearance.
