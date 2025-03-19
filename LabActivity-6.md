@@ -1,31 +1,38 @@
-# Lab 6: (5:00 - 6:00) - Responsive Design with Media Queries
+# Lab 6 - Flexbox Layout & Grid Layout
 
 ## Objective:
-Implement a basic responsive design using media queries.
+Working with Flexbox to center elements and control overflow, and used CSS Grid to build complex grid layouts.
+## Task 
 
-## Task (10 minutes):
-1. In your `styles.css`, add a media query that changes the background color to lightgray when the screen width is less than 600px:
+### Part 3: Flexbox Layout
+- Create a container `div` with at least 3 child div elements.
+- Set the container’s display property to `flex`.
+- Center the child elements both `vertically and horizontally`.
+- Use `the flex-direction` property to change the layout from` row `to `column`.
+- Use `justify-content `and `align-items` to add space between elements and control alignment.
+- Control the overflow of a `div` using overflow property.
+Example:
+
+```css
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+```
 
 
-    ```css
-    @media (max-width: 600px) {
-    body {
-        background-color: lightgray;
-    }
-    }
-    ```
-2. Use another media query to stack the items in your Flexbox layout (from Lab 4) into a single column when the screen width is less than 800px:
+### Part 4: Grid Layout
+- Create a container `div` and define a grid with two columns using `grid-template-columns`.
+- Define rows using `grid-template-rows`.
+- Apply `grid-template-areas` to define named grid areas.
 
-    ```css 
-    @media (max-width: 800px) {
-    .flex-container {
-        flex-direction: column;
-    }
-    }
-    ```
+Example:
 
-## Test your Website:
-
-- Resize the browser window to less than 600px and observe the background color change.
-- Resize the window to less than 800px and see how the Flexbox layout items stack into a single column.
-- Make sure your website adapts to different screen sizes accordingly.
+```css
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header" "content sidebar" "footer footer";
+  }
+```
