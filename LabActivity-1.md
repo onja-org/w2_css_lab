@@ -1,4 +1,4 @@
-# Lab 1: (0:00 - 1:00) - Basics CSS structure & Selectors
+# Lab 1 - Basics CSS structure & Selectors
 
 ## Objective: 
 Introduction to Basic CSS structure and Selectors.
