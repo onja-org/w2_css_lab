@@ -1,10 +1,10 @@
 # Lab 5 - CSS Columns Layout & Positioning
 
-### Objective:
+### 📌 Objective:
 In this lab, you will learn creating multi-column layouts, applied different CSS positioning methods.
 
 ## Tasks :
-### Part 1: Columns Layout
+### 🪟 Part 1: Columns Layout
 
 1. Create a container `div` with at least 3 paragraphs inside.
 2. In the CSS, use the `column-count` property to define how many columns the content should have.
@@ -20,7 +20,7 @@ Example:
     }
   ```
 
-### Part 2: Positioning
+### 📉 Part 2: Positioning
 - Create a `div` element with some text inside.
 - Apply different position properties (relative, absolute, static, sticky, fixed) and observe how they affect the layout.
 - Make a `div` element sticky using `position: sticky` and set a `top` value.

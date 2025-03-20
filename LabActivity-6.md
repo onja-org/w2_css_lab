@@ -1,10 +1,10 @@
 # Lab 6 - Flexbox Layout & Grid Layout
 
-## Objective:
+## 📌 Objective:
 Working with Flexbox to center elements and control overflow, and used CSS Grid to build complex grid layouts.
 ## Task 
 
-### Part 3: Flexbox Layout
+### 🔶 Part 3: Flexbox Layout 🔶🔶🔶
 - Create a container `div` with at least 3 child div elements.
 - Set the container’s display property to `flex`.
 - Center the child elements both `vertically and horizontally`.
@@ -22,7 +22,7 @@ Example:
 ```
 
 
-### Part 4: Grid Layout
+### 🟪 Part 4: Grid Layout 🟪🟪🟪
 - Create a container `div` and define a grid with two columns using `grid-template-columns`.
 - Define rows using `grid-template-rows`.
 - Apply `grid-template-areas` to define named grid areas.
