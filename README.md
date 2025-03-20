@@ -6,12 +6,12 @@ Welcome to the CSS Labs! These labs are designed to help you practice key CSS co
 ## 📚 Lab Structure
 Each lab is divided into multiple sections, covering different CSS topics. The labs are structured as follows:
 
-- **Lab 1**: Basics CSS structure & Selectors
-- **Lab 2**: CSS Units & Sizes and Box Model
-- **Lab 3**:  CSS Typography & List Styles
-- **Lab 4**: CSS Display & Float
-- **Lab 5**: Columns Layout & Positioning
-- **Lab 6**: Flexbox & Grid Layout
+- [**Lab 1**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-1.md): Basics CSS structure & Selectors
+- [ **Lab 2**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-2.md): CSS Units & Sizes and Box Model
+- [**Lab 3**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-3.md):  CSS Typography & List Styles
+- [**Lab 4**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-4.md): CSS Display & Float
+- [**Lab 5**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-5.md): Columns Layout & Positioning
+- [**Lab 6**](https://github.com/onja-org/w2_css_lab/blob/main/LabActivity-6.md): Flexbox & Grid Layout
 
 ## 🧰 Prerequisites
 To complete these labs, you should have:
