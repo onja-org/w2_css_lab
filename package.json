@@ -1,0 +1,14 @@
+{
+  "name": "w2_css_lab",
+  "version": "1.0.0",
+  "description": "## ❇️ Overview Welcome to the CSS Labs! These labs are designed to help you practice key CSS concepts, including, selector, typography, styling, layout techniques, positioning, Flexbox, and Grid. Each lab contains hands-on tasks to reinforce learning through practical implementation.",
+  "main": "css_lab_test.js",
+  "scripts": {
+    "test": "npm install & node tests/test_lab_activity.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}
